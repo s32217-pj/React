@@ -16,8 +16,8 @@ function App() {
 
   return (
     <>
+    <div>dklsadj;ksa;kjsdklfjhsdkfasdsadsaj</div>
       <FilmList title="Do obejrzenia" films={unwatchedFilms} />
-      <hr />
       <FilmList title="Obejrzane" films={watchedFilms} />
     </>
   )

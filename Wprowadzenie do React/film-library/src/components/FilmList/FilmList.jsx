@@ -1,3 +1,5 @@
+import FilmCard from "../FilmCard/FilmCard";
+
 export default function FilmList({ title, films }) {
     return (
         <>
