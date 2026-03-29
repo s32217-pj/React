@@ -71,11 +71,7 @@ function FilmCard({ title, year, genre, rating, watched }) {
                     { className: 'text-success fw-bold mt-2' },
                     '✓ Obejrzany'
                 )
-                : React.createElement(
-                    'p',
-                    { className: 'text-muted mt-2' },
-                    'Do obejrzenia'
-                )
+                : null
         )
     );
 }
