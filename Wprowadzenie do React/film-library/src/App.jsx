@@ -15,11 +15,10 @@ function App() {
   let unwatchedFilms = FILMS.filter(film => !film.watched);
 
   return (
-    <>
-    <div>dklsadj;ksa;kjsdklfjhsdkfasdsadsaj</div>
+    <div className="container py-5">
       <FilmList title="Do obejrzenia" films={unwatchedFilms} />
       <FilmList title="Obejrzane" films={watchedFilms} />
-    </>
+    </div>
   )
 }
 
